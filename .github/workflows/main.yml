@@ -24,7 +24,6 @@ jobs:
       uses: ./  # Use action from the root of this repository
       with:
         packages: >
-          aide
           calamares
 
     - name: List generated Files
